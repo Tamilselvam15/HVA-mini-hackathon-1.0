@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+@import url('https://use.typekit.net/your-adobe-kit-id.css');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --Dark: #3C3030;
+    --light: #FDFDFA;
+    --Dark-Red: #D02424;
+}
+
+body {
+    background-color: black;
+}
+.Top-heading{
+    margin-top:15px ;
+}
+
+.news-container {
+    width: 1140px;
+    height: 2003px;
+    flex-shrink: 0;
+    margin: auto;
+    background-color: #FDFDFA;
+}
+
+.Content-items {
+    width: 1140px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.heading-box {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.head1,.head2 {
+    color: var(--Dark);
+    font-family: "Iowan Old Style";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.elipse {
+    width: 40.291px;
+    height: 40.291px;
+}
+
+
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.line1 {
+    width: 1140px;
+    height: .2px;
+    background: #3C3030;
+}
+
+.search-bar {
+    width: 328px;
+    height: 60px;
+    display: flex;
+    flex-shrink: 0;
+    border: 1px solid var(--Dark, #3C3030);
+}
+
+.search-placeholder {
+    display: flex;
+    width: 267px;
+    align-items: center;
+    flex-direction: row;
+    opacity: .3;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 61px;
+    opacity: .8;
+    background-color: red;
+
+
+}
+
+.go-button {
+    color: var(--light);
+    width: 20px;
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 140%; */
+}
+
+.serach-h {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+ 
+}
+
+.content_of_news {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.news-header {
+    color: var(--Dark-Red, #D02424);
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+.news-content1 {
+    width: 910px;
+    height: 1350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 96px
+}
+
+
+.news1,.news2,.news3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    height: 400px;
+    width: 910px;
+}
+
+
+.newses {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.photo {
+    width: 250px;
+    height: 120px;
+}
+
+.photo-heading {
+    color: var(--Dark, #3C3030);
+    font-family: "Inknut Antiqua";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+}
+
+.photo-description {
+    color: var(--Dark, #3C3030);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.photo-url {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 140%;
+}
+
+.arrow {
+    margin-left: 3px;
+    color: var(--Dark-Red, #D02424);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-decoration-line: underline;
+}
+
+.Footer {
+    display: flex;
+    width: 1140px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    border: solid 0.5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: #3C3030;
+    gap: 2px;
+}
+
+.foot-content {
+    color: var(--Dark, #3C3030);
+    font-family: "Iowan Old Style";
+    font-size: 15.095px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footer-elipse {
+    width: 8.302px;
+    height: 8.302px;
+
+}
+
+.foot-other {
+    color: var(--Dark, #3C3030);
+    font-family: "Inria Serif";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .news-container {
+        width: 405px;
+        height: 4150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+
+    }
+
+    .Content-items {
+        width: 390px;
+        gap: 40px;
+        justify-content: center;
+        display: inline-flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .heading-box {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3px;
+        margin-top: 20px;
+        
+    }
+
+    .head1,
+    .head2 {
+        font-size: 35.95px;
+    }
+
+    .elipse {
+        width: 25.809px;
+        height: 25.809px;
+    }
+    .lines{
+        gap: 3px;
+    }
+
+    .line1 {
+        width: 402px;
+        height: .2px;
+    }
+
+    .search-bar {
+        width: 345px;
+        height: 56px;
+    }
+
+    .search-placeholder {
+        width: 290px;
+    }
+
+    .button1 {
+        width: 60px;
+        gap: 8px;
+    }
+
+    .content_of_news {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .news-content1 {
+        width: 345px;
+        height: 2700px;
+        gap: 20px;
+        
+    }
+
+    .news1,
+    .news2,
+    .news3 {
+        flex-direction: column;
+        gap: 20px;
+        height: 1300px;
+        width: 100%;
+    }
+
+    .newses {
+        width: 100%;
+        height: 400px;
+        gap: 30px;
+    }
+
+    .photo {
+        width: 100%;
+        height: auto;
+    }
+
+    .photo-heading {
+        font-size: 16px;
+    }
+
+    .photo-description,
+    .photo-url,
+    .arrow {
+        font-size: 14px;
+    }
+
+    .Footer {
+        width: 405px;
+        display: flex;
+        height: auto;
+        bottom: 30px;
+        position: absolute;
+        gap: 5px;
+    }
+
+    .foot-content,
+    .foot-other {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-elipse {
+        width: 5px;
+        height: 5px;
+    }
+}
